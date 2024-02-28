@@ -1,3 +1,55 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    background-color: #030410;
+    color: #FFF;
+    font-family: 'Open Sans';
+}
+
+.purple {
+    color: #af31b4;
+}
+
+.bg-purple {
+    background-color: #af31b4;
+}
+
+.pink {
+    color: #c64596;
+}
+.orange {
+    color: #e86467;
+}
+.btn {
+    border: 2px solid #FFF;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.btn-pink {
+    background-color: #af31b4;
+    border-color: #030410;
+    color: #030410;
+}
+/* .light {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-filter: blur(5px) opacity(.2);
+    filter: blur(5px) opacity(.2);
+} */
+
+div.container {
+    max-width: 1080px;
 }

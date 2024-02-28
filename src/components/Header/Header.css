@@ -1,0 +1,54 @@
+header .container {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+header .container .content {
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+header .left {
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .left h1 {
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 1.2em;
+}
+header .left p {
+    max-width: 450px;
+}
+header .left .buttons {
+    display: flex;
+    margin-top: 50px;
+}
+header .left .buttons .btn:first-child {
+    margin-right: 30px;
+}
+header .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .right .avatar {
+    padding: 7px;
+    border-radius: 50%;
+    background: linear-gradient(-90deg, #af31b4, #c64596, #e86467);
+}
+header .right .avatar img {
+    max-width: 380px;
+    border-radius: 50%;
+}
+
+header .fa-chevron-down {
+    color: #FFF;
+    font-size: 40px;
+}
