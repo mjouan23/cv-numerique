@@ -47,7 +47,14 @@ header .right .avatar img {
     max-width: 380px;
     border-radius: 50%;
 }
-
+header .icons {
+    margin-top: 60px;
+    display: flex;
+    font-size: 30px;
+}
+header .icons > * {
+    margin: 0 50px;
+}
 header .fa-chevron-down {
     color: #FFF;
     font-size: 40px;
